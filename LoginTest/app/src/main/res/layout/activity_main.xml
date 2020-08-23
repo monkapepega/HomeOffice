@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2EC712E"
+    android:background="#E1E4DD38"
     tools:context=".MainActivity">
 
     <ImageView
@@ -80,4 +80,15 @@
         android:text="Register Here"
         android:textColor="#ffff"
         android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-40dp"
+        android:text="Moisture Sensor Experts"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
 </RelativeLayout>
