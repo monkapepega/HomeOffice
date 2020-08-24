@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E1E4DD38"
+    android:background="#fff"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/ic_logo_imko"
         tools:ignore="VectorDrawableCompat" />
@@ -18,24 +19,21 @@
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="220dp"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:background="#11000000"
-        android:drawableLeft="@drawable/ic_action_user"
+        android:drawableLeft="@drawable/ic_action_name"
         android:ems="10"
         android:hint="Username"
-        android:inputType="textPersonName"
-        android:textSize="16dp" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
         android:layout_width="220dp"
-        android:layout_height="40dp"
+        android:layout_height="35dp"
         android:layout_below="@+id/editTextTextPersonName"
-        android:layout_alignStart="@id/editTextTextPersonName"
-        android:layout_alignLeft="@id/editTextTextPersonName"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:background="#11000000"
@@ -45,8 +43,8 @@
         android:inputType="textPassword" />
 
     <androidx.cardview.widget.CardView
-        android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
         android:layout_below="@id/editTextTextPersonName"
         android:layout_centerHorizontal="true"
         app:cardBackgroundColor="@color/colorAccent"
@@ -76,9 +74,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="520dp"
+        android:layout_marginTop="455dp"
         android:text="Register Here"
-        android:textColor="#ffff"
+        android:textColor="@android:color/tertiary_text_dark"
         android:textSize="14sp" />
 
     <TextView
@@ -87,8 +85,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-40dp"
+        android:layout_marginTop="-15dp"
         android:text="Moisture Sensor Experts"
-        android:textColor="@android:color/background_dark"
-        android:textSize="18sp" />
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textSize="16sp" />
 </RelativeLayout>
